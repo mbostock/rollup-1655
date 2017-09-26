@@ -1,0 +1,13 @@
+{
+  "name": "rollup-1655",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c rollup.config.js && node output.js"
+  },
+  "dependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.1"
+  }
+}
